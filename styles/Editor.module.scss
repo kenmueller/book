@@ -1,0 +1,23 @@
+@use 'spinner' as *;
+
+.root {
+	:global(.CodeMirror) {
+		height: 100% !important;
+		background: #161b22 !important;
+	}
+	
+	:global(.CodeMirror-gutters) {
+		background: #0e1218 !important;
+		border-right-color: #30363d !important;
+	}
+}
+
+.loading {
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.spinner {
+	@include spinner(28px, 4px, white);
+}

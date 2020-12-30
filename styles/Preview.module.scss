@@ -1,0 +1,18 @@
+.root {
+	padding: 8px 12px;
+	color: white !important;
+	
+	h1,
+	h2 {
+		border-bottom-color: #21262d !important;
+	}
+	
+	code {
+		background-color: #f0f6fc26 !important;
+	}
+	
+	pre,
+	pre code {
+		background-color: transparent !important;
+	}
+}

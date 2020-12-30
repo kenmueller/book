@@ -1,0 +1,18 @@
+.root {
+	display: grid;
+	grid: 1fr / 1fr 1px 1fr;
+}
+
+.editor,
+.divider,
+.preview {
+	height: 100vh;
+}
+
+.divider {
+	background: #30363d;
+}
+
+.preview {
+	overflow-y: auto;
+}
